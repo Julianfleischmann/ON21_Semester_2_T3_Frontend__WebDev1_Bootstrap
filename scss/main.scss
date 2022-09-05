@@ -1,4 +1,16 @@
-@import '../variables/variables';
-@import '../modules/slider';
-@import '../layout/header';
-@import '../layout/footer';
+// Import SCSS Bootstrap
+@import './node_modules/bootstrap/scss/bootstrap';
+
+// @import '../variables/variables';
+
+
+// scss-docs-start theme-color-variables
+$primary: $red!important;
+// $secondary:     $gray-600 !default;
+// $success:       $green !default;
+// $info:          $cyan !default;
+// $warning:       $yellow !default;
+// $danger:        $red !default;
+// $light:         $gray-100 !default;
+// $dark:          $gray-900 !default;
+// scss-docs-end theme-color-variables
